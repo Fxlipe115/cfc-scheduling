@@ -1,0 +1,19 @@
+{
+  "name": "cfc-scheduling",
+  "version": "1.0.0",
+  "description": "trabalho de ihc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fxlipe115/cfc-scheduling"
+  },
+  "author": "Arthur Zachow and Felipe Graeff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fxlipe115/cfc-scheduling/issues"
+  },
+  "homepage": "https://github.com/Fxlipe115/cfc-scheduling#readme"
+}
