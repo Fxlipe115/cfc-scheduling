@@ -6,12 +6,12 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/schedule', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+router.get('/schedule/:uielement', function(req, res, next) {
+  res.render('index', { title: 'Schedule', uielement: req.params.uielement });
 });
 
 router.get('/view', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'View' });
 });
 
 module.exports = router;
